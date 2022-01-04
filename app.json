@@ -7,7 +7,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Jisan09/catuserbot/",
+  "repository": "https://github.com/CatuserbotBR/catuserbot/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -53,12 +53,12 @@
     },
     "TZ": {
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
+      "value": "America/Sao_Paulo",
       "required": false
     },
     "UPSTREAM_REPO": {
       "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
-      "value": "badcat",
+      "value": "https://github.com/CatuserbotBR/catuserbot",
       "required": false
     }
   },
